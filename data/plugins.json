@@ -5157,4 +5157,20 @@
     "_source_description": "Fork any DeepSeek Harness session into a different agent preset — a UI button with preset picker in the conversation header.",
     "_updated": "2026-08-21"
   }
+,
+  {
+    "id": "dsh-asr-plugin",
+    "name": "dsh-asr-plugin",
+    "type": "plugin",
+    "category": "input-editing",
+    "repository": "https://github.com/huliux/dsh-asr-plugin",
+    "description": "Local meeting transcription for DeepSeek Harness on Apple Silicon macOS: dual-track recording, live transcript drafts with speaker labels, and @-referenced summaries into decisions and action items. Audio is transcribed on-device, not by a cloud ASR service.",
+    "description_zh": "为 Apple Silicon Mac 上的 DeepSeek Harness 提供本地会议转写：双轨录音、实时转写草稿与说话人标签，@ 引用会议即可生成总结、决策与待办，音频在本地转写，不走云端 ASR。",
+    "capabilities": [
+      "multimodal"
+    ],
+    "status": "active",
+    "verified": false,
+    "stars": 20
+  }
 ]
